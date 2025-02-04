@@ -33,12 +33,6 @@ $users = getUsers();
     //echo "Lat-long:" . $users[$i]["address"]["geo"]["lat"]. "<br>" . $users[$i]["address"]["geo"]["lng"]. "<br>";
     //echo "Phone number:" . $users[$i]["phone"]. "<br>";
     echo "<br>";
-    
-    //google map
-
-    //$lat = $users[$i]["address"]["geo"]["lat"];
-    //$lng = $users[$i]["address"]["geo"]["lng"];
-    //echo "<iframe width='600' height='300' style='border:0' loading='lazy' allowfullscreen referrerpolicy='no-referrer-when-downgrade' src='https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=$lat,$lng&zoom=14'></iframe>";
     } 
 ?>
 
